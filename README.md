@@ -15,6 +15,10 @@ You may also notice that the vehicles will initially be detected and the individ
 
 Finally at the end of the video all the individual instances are calculated and printed on the  terminal .
 
+<p align="center">
+  <img src="https://github.com/ask-santosh/Individual-Vehicle-Instance-Detection-and-Calculation-Using-YOLOV3/blob/main/Screenshot%20from%202021-07-01%2002-07-38.png">
+</p>
+
 ## Prerequisites
 * Linux distro or MacOS (Tested on Ubuntu 18.04)
 * A street video file to run the vehicle counting 
