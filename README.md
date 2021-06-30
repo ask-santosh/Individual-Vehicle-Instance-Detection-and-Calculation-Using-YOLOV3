@@ -6,7 +6,7 @@ This project aims to count every vehicle (motorcycle, bus, car, cycle, truck, tr
 
 ## Working 
 <p align="center">
-  <img src="https://github.com/ask-santosh/Individual-Vehicle-Instance-Detection-and-Calculation-Using-YOLOV3/blob/main/asia_new.mp4">
+  <img src="https://github.com/ask-santosh/Individual-Vehicle-Instance-Detection-and-Calculation-Using-YOLOV3/blob/main/asia_new.gif">
 </p>
 
 As shown in the image above, when the vehicles in the frame are detected, they are stored in a dictionary with their id. After getting detected once, the vehicles get tracked and do not get re-counted by the algorithm. 
