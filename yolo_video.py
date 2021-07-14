@@ -250,7 +250,7 @@ while True:
     previous_frame_detections.append(current_detections)
 
 # Calculating individual instances of each class
-print("final dictionary=========", final_dict)
+print("final dictionary=========>>", final_dict)
 count_car = 0
 count_motorbike = 0
 count_truck = 0
@@ -271,12 +271,12 @@ for k, v in final_dict.items():
     else:
         count_train += 1
 
-print("no_cars==========", count_car)
-print("no_motorbike==========", count_motorbike)
-print("no_truck==========", count_truck)
-print("no_bus==========", count_bus)
-print("no_bicycle==========", count_bicycle)
-print("no_train==========", count_train)
+print("no_cars==========>>", count_car)
+print("no_motorbike==========>>", count_motorbike)
+print("no_truck==========>>", count_truck)
+print("no_bus==========>>", count_bus)
+print("no_bicycle==========>>", count_bicycle)
+print("no_train==========>>", count_train)
 
 # release the file pointers
 print("[INFO] cleaning up...")
