@@ -271,12 +271,12 @@ for k, v in final_dict.items():
     else:
         count_train += 1
 
-print("no_cars==========>>", count_car)
-print("no_motorbike==========>>", count_motorbike)
-print("no_truck==========>>", count_truck)
-print("no_bus==========>>", count_bus)
-print("no_bicycle==========>>", count_bicycle)
-print("no_train==========>>", count_train)
+print("no_cars==========", count_car)
+print("no_motorbike==========", count_motorbike)
+print("no_truck==========", count_truck)
+print("no_bus==========", count_bus)
+print("no_bicycle==========", count_bicycle)
+print("no_train==========", count_train)
 
 # release the file pointers
 print("[INFO] cleaning up...")
