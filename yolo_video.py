@@ -250,7 +250,7 @@ while True:
     previous_frame_detections.append(current_detections)
 
 # Calculating individual instances of each class
-print("final dictionary=========>>", final_dict)
+print("final dictionary=========", final_dict)
 count_car = 0
 count_motorbike = 0
 count_truck = 0
