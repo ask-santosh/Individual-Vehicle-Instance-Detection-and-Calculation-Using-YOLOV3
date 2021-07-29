@@ -46,7 +46,7 @@ Examples:
 ```
 python3 yolo_video.py --input asia.mp4 --output asia_new.mp4 --yolo yolo-coco 
 ```
-* Specifying confidence
+* Specifying confidence (0 < confidence <= 1)
 ```
 python3 yolo_video.py --input asia.mp4 --output asia_new.mp4 --yolo yolo-coco --confidence 0.3
 ```
